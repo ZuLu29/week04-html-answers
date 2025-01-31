@@ -79,7 +79,14 @@
         </div>
         <div class="form-group">
           <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            pattern="\d{5}"
+          />
+
           <small
             >Password must contain at least 8 characters, including one
             uppercase letter, one lowercase letter, one number, and one special
